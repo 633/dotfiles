@@ -1,0 +1,9 @@
+autodetach on
+deflogin off
+defnonblock on
+defutf8 on
+startup_message off
+vbell off
+
+hardstatus alwayslastline
+hardstatus string '%{= m}Load:%{= G} %l %= %{= w}%-w%{+b r}%n:%t%{-b r}%{w}%+w %= %{b}%d/%m/%Y (%D.) %{Y}%c:%s'
